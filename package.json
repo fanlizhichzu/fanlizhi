@@ -9,7 +9,7 @@
     "vuepress": "^1.3.1"
   },
   "description": "创建VuePress-GithubPages-TravisCI在线文档",
-  "homepage": "https://github.com/Tsanfer/VuePress-GithubPages-TravisCI#readme",
+  "homepage": "https://github.com/fanlizhichzu/fanlizhi.git",
   "keywords": [
     "VuePress",
     "Github Pages",
@@ -19,7 +19,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tsanfer/VuePress-GithubPages-TravisCI.git"
+    "url": "git+https://github.com/fanlizhichzu/fanlizhi.git"
   },
   "scripts": {
     "docs:build": "vuepress build docs",
