@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/VuePress-GithubPages-TravisCI/", //目录根地址，应与Github仓库名字相同
+  base: "/fanlizhi/", //目录根地址，应与Github仓库名字相同
   title: "VuePress + GithubPages + TravisCI", // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
   description: "创建 VuePress + GithubPages + TravisCI 在线文档", // meta 中的描述文字，用于SEO
   head: [
@@ -43,7 +43,7 @@ module.exports = {
     // 假如文档不是放在仓库的根目录下：
     docsDir: "docs",
     // 假如文档放在一个特定的分支下：
-    docsBranch: "master",
+    docsBranch: "main",
     // 默认是 false, 设置为 true 来启用
     editLinks: true,
     // 默认为 "Edit this page"
