@@ -1,5 +1,5 @@
 module.exports = {
-  base: "fanlizhichzu.github.io/fanlizhi/", //目录根地址，应与Github仓库名字相同
+  base: "/fanlizhi/", //目录根地址，应与Github仓库名字相同
   title: "VuePress + GithubPages + TravisCI", // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
   description: "创建 VuePress + GithubPages + TravisCI 在线文档", // meta 中的描述文字，用于SEO
   head: [
