@@ -1,14 +1,15 @@
 ---
 home: true
-heroImage: https://cdn-image.tsanfer.xyz/img/vuepress_githubpages_travisCI.svg
-actionText: 快速上手 →>
-actionLink: /pages/flow.md
-features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2020 Tsanfer
+bgImage: "/background.jpg"
+bgImageStyle: { height: "350px" }
 ---
+
+<p align="center">
+  <social-share />
+</p>
+
+<!--
+<div style="width:300px;margin:0 auto; padding:20px 0;">
+<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51110202000301" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">川公网安备 51110202000301号</p></a>
+</div>
+-->
