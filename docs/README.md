@@ -1,7 +1,7 @@
 ---
 home: true
-bgImage: "/background.jpg"
-bgImageStyle: { height: "350px" }
+bgImage: "/back2.jpg"
+bgImageStyle: { height: "800px" }
 ---
 
 <p align="center">
