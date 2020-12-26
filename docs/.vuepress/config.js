@@ -1,7 +1,7 @@
 module.exports = {
   // base: "/fanlizhi/", //目录根地址，应与Github仓库名字相同
-  title: "VuePress + GithubPages + TravisCI", // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
-  description: "创建 VuePress + GithubPages + TravisCI 在线文档", // meta 中的描述文字，用于SEO
+  title: "奔赴山河", // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
+  description: "Everything is related to everything else, but near things are more related to each other", // meta 中的描述文字，用于SEO
   head: [
     ["link", { rel: "icon", href: "/favicon.svg" }], //浏览器的标签栏的网页图标,基地址/docs/.vuepress/public
     [
@@ -128,18 +128,42 @@ module.exports = {
   searchMaxSuggestions: 10, // 插件
   plugins: [
     [
-      'meting',
+      'meting', {
+      auto: "https://y.qq.com/n/yqq/playlist/7123372894", //你的歌单的链接，网页歌单链接
+      meting: {
+        server: "tencent",  //歌单的平台、我这里是QQ音乐的平台
+        type: "playlist",
+        mid: "7123372894", //链接后面的id
+      },          // 不配置该项的话不会出现全局播放器
+      aplayer: {
+        lrcType: 3,
+        autoplay: true
+      }
+    }
+    ],
+    [
+      "ribbon",
       {
-        auto: "https://music.163.com/#/playlist?id=2539599584"
+        size: 90, // 彩带的宽度，默认为 90
+        opacity: 0.8, // 彩带的不透明度，默认为 0.3
+        zIndex: -1 // 彩带的 z-index 属性，默认值为 -1
       }
     ],
     [
       "social-share", //分享插件
       {
         networks: ["qq", "weibo", "twitter", "facebook", "email"], //分享类型
-        email: "a1124851454@gmail.com", //email地址
+        email: "fanlizhichzu@outlook.com", //email地址
         twitterUser: "a1124851454", //Twitter账号
       },
+    ],
+    [
+      "cursor-effects",
+      {
+        size: 2,                    // 大小
+        shape: ['star'| 'circle'],  // 散落形状, default: 'star'
+        zIndex: 999999999           // z-index property of the canvas, default: 999999999
+      }
     ],
     ["flowchart"], // 支持流程图
     // ["vuepress-plugin-smooth-scroll"], // 平滑滚动
