@@ -37,7 +37,6 @@ module.exports = {
       //链接页面链接的根地址为/docs
       { text: "主页", link: "/", icon: "reco-home" },
       { text: "时间线", link: "/timeline/", icon: "reco-date" },
-      { text: "订阅", link: "https://tsanfer.xyz/rss.xml", icon: "reco-rss" },
       {
         text: "工具",
         icon: "reco-api",
@@ -64,33 +63,8 @@ module.exports = {
         icon: "reco-message",
         items: [
           {
-            text: "GitHub",
-            link: "https://github.com/Tsanfer",
-            icon: "reco-github",
-          },
-          {
-            text: "CSDN",
-            link: "https://blog.csdn.net/qq_27961843/",
-            icon: "reco-csdn",
-          },
-          {
-            text: "BiliBili",
-            link: "https://space.bilibili.com/12167681",
-            icon: "reco-bilibili",
-          },
-          {
-            text: "QQ",
-            link: "tencent://message/?uin=1124851454",
-            icon: "reco-qq",
-          },
-          {
-            text: "Twitter",
-            link: "https://twitter.com/a1124851454",
-            icon: "reco-twitter",
-          },
-          {
             text: "Gmail",
-            link: "mailto:a1124851454@gmail.com",
+            link: "mailto:fanlizhichzu@outlook.com",
             icon: "reco-mail",
           },
         ],
